@@ -5,6 +5,7 @@ A full-stack website for organising sports sessions and online gaming teams.
 ## Author
 
 Shreyash Singh 
+
 B.Tech Information Technology, MIT Manipal  
 
 ## Features
