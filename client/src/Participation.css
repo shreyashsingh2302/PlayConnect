@@ -1,0 +1,134 @@
+.availability-filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+  color: #bdc9dc;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.availability-filter input {
+  width: 17px;
+  height: 17px;
+  accent-color: #b5f36d;
+}
+
+.player-progress {
+  width: 100%;
+  height: 7px;
+  margin: 20px 0 14px;
+  border: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  accent-color: #b5f36d;
+  background: #29364c;
+}
+
+.player-progress::-webkit-progress-bar {
+  background: #29364c;
+}
+
+.player-progress::-webkit-progress-value {
+  background: #b5f36d;
+}
+
+.player-progress::-moz-progress-bar {
+  background: #b5f36d;
+}
+
+.membership-badge {
+  align-self: flex-start;
+  padding: 7px 10px;
+  border-radius: 8px;
+  background: #253149;
+  color: #c5d2e7;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.membership-badge.host,
+.membership-badge.accepted {
+  background: #253b27;
+  color: #b5f36d;
+}
+
+.membership-badge.pending {
+  background: #40351d;
+  color: #ffe39c;
+}
+
+.membership-badge.rejected {
+  background: #402431;
+  color: #ffc4cc;
+}
+
+.participation-actions {
+  display: grid;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.players-panel {
+  margin-top: 18px;
+  padding: 16px;
+  border: 1px solid #35415a;
+  border-radius: 12px;
+  background: #0d1626;
+}
+
+.players-panel h3 {
+  margin: 4px 0 14px;
+  font-size: 14px;
+}
+
+.players-panel h3:not(:first-child) {
+  margin-top: 24px;
+}
+
+.player-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #26334a;
+  font-size: 13px;
+}
+
+.player-role {
+  color: #b5f36d;
+  font-size: 11px;
+}
+
+.player-note {
+  margin: 8px 0;
+  color: #aab8ce;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.request-row {
+  padding: 12px 0;
+  border-bottom: 1px solid #26334a;
+  font-size: 13px;
+}
+
+.request-row:last-child {
+  border-bottom: 0;
+}
+
+.request-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.request-buttons button {
+  flex: 1;
+  width: auto;
+  padding: 10px 12px;
+  font-size: 12px;
+}
