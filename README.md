@@ -4,10 +4,8 @@ A full-stack website for organising sports sessions and online gaming teams.
 
 ## Author
 
-Shreyash Singh  
-Registration number: 240911682  
+Shreyash Singh 
 B.Tech Information Technology, MIT Manipal  
-Web Technologies individual project
 
 ## Features
 
